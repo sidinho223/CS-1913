@@ -1,0 +1,15 @@
+Method                                      ArrayList       Runtime LinkedList              Runtime Explanation
+boolean add(T element)                      O(n^2)                O(n^2)                        because there is 1 inner loop that i used to resize
+                                                                                                        the array
+boolean add(int index, T element)           O(n^2)               O(n^2)                        same as the first add()
+void clear()                                O(1)               O(1)                         it takes only 1 operation
+boolean contains(T element)                 O(n)                O(n)                        it takes 1 loop to go through all the elements
+T get(int index)                            O(n)                O(n)
+int indexOf(T element)                      O(n)                O(n)
+boolean isEmpty()                           O(n)                O(n)
+int lastIndexOf(T element)                  O(n)                O(n)
+T set(int index, T element)                 O(n)                O(n)
+int size()                                  O(n)                O(n)
+void sort(boolean order)                    O(n^2)              O(n^2)
+boolean remove(T element)                   O(n)                O(n)
+T remove(int index)                         O(n)                O(n)
